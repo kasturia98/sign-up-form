@@ -1,0 +1,309 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#F0F2F5;
+    
+}
+h1 {
+    margin: 35px 0px 25px 0px;
+    font-size: 35px;
+    position: relative;
+    left: 4px;
+
+}
+.top1{
+    position: relative;
+    top: 5px 
+}
+.cross{
+    float: right;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 64px;
+    right: 4px;
+    left: -4px;
+    contain: content;
+    padding: 0;
+    border: none;
+    right: 7px;
+}
+.cross:hover{
+    border: 1px solid grey;
+}
+.top{
+    position: relative;
+    bottom: 42px;
+}
+.top1{
+    position: relative;
+    bottom: 30px;
+    position: relative;
+    top: 5px
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.signup-box{
+    width: 432px;
+    height:520px;
+    background-color: white;
+    margin-top: 200px;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-shadow: grey;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 15px 5px #888888;
+    border-radius: 5px;
+    
+}
+#tagline{
+    position: relative;
+    bottom: 50px;
+    color: #606770;
+    margin: 0px;
+    position: relative;
+    top: -17px;
+    left: 5px;
+}
+.intersection{ 
+    border-top: 1px solid lightgray;
+    width: 104%;
+    margin-left: -9px;
+    position: relative;
+    bottom: 60px;
+}
+.form1{
+    border: 1px;
+    position: relative;
+    bottom: 50px;
+    margin-left: -3px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+.name1{
+    position: relative;
+    bottom: 25px;
+}
+.user-detail{
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: #F5F6F7;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+   
+}
+.user-form{
+    line-height: 16px;
+    
+}
+#newkey{
+    position: relative;
+    bottom: 9px;
+}
+.sign-up-button{
+    background-color: #42B72A;
+    width: 190px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 5px;
+    position: relative;
+    left: 2px;
+    margin: auto;
+}
+    
+.sign-up-button:hover {
+    background-color: #42B72A; 
+    background-image: linear-gradient(to top, #42B72A, #6CA15F );
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder {
+    font-size: 15px;
+    font-weight: 300px
+  }
+.check-box-text{
+    margin: -10px 10px;
+    color: #777;
+    position: relative;
+    
+}
+.check-box-div input{
+    margin: 6px -5px 5px 5px;
+}
+
+.check-box-div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 450px;
+    left: 5px;
+    bottom: 15px;
+    
+}
+.check-box-div p{
+    font-size: 13px;
+}
+.check-box-div a{
+    text-decoration: none;
+    color: #385898;
+}
+.dob{
+    display: flex;
+    flex-direction: row;
+    bottom: 27px;
+    position: relative;
+    left: 10px;
+    width: 450px;
+    height: 50px;
+}
+.gender-div{
+    width: 411px;
+    height: 50px;
+    position: relative;
+    left: 9px;
+    bottom: 30px;
+}
+  
+.female{
+    display: flex;
+    flex-direction: row;
+    width: 128.8px;
+    height: 36px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.female p{
+    position: relative;
+    bottom: 7px;
+    left: 9px;
+    font-size: 15px;
+}
+#female{
+    position: relative;
+    left: 52px;
+    top: 7px;
+}
+.male{
+    display: flex;
+    flex-direction: row;
+    width: 128.8px;
+    height: 36px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    position: relative;
+    left: 15px
+}
+.male p{
+    position: relative;
+    bottom: 7px;
+    left: 9px;
+    font-size: 15px;
+}
+#male{
+    position: relative;
+    left: 66px;
+    top: 7px;
+}
+.custom{
+    display: flex;
+    flex-direction: row;
+    width: 128.8px;
+    height: 36px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    position: relative;
+    left: 30px;
+}
+.custom p{
+    position: relative;
+    bottom: 7px;
+    left: 9px;
+    font-size: 15px;
+}
+#custom{
+    position: relative;
+    top: 7px;
+    left: 46px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+#date{
+    padding: 0px 20px 0px 8px;
+    width: 125px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    background: #fff;
+    font-size: 15px;
+}
+#months{
+    padding: 0px 20px 0px 8px;
+    width: 125px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    background: #fff;
+    font-size: 15px;
+    position: relative;
+    left: 24px;
+    
+}
+#year{
+    padding: 0px 20px 0px 8px;
+    width: 125px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    background: #fff;
+    font-size: 15px;
+    position: relative;
+    left: 47px;
+}
+
+.dob-title{
+    font-size: 12px;
+    color: #606770;
+    width: 400px;
+    margin: 0px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    bottom: 27px
+    
+}
+.gender-title{
+    font-size: 12px;
+    color: #606770;
+    width: 400px;
+    margin: 0px;
+    height: 20px;
+}
+.checkbox{
+    position: relative;
+   
+}
+
+
+
+
+
